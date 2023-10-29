@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Генерація матриці</title>
+    <link rel="stylesheet" type="text/css" href="Lr_2.css">
+    <script src="Lr_2.js"></script>
+</head>
+<body>
+  <table id="label-table">
+    <tr>
+      <td><label for="rowCount">Кількість рядків:</label></td>
+      <td><input type="text" id="rowCount"></td>
+    </tr>
+    <tr>
+      <td><label for="colCount">Кількість стовпців:</label></td>
+      <td><input type="text" id="colCount"></td>
+    </tr>
+    <tr><td><button onclick="generateTable()">Побудувати матрицю</button></td></tr>
+    <tr><td><button onclick="countSameRowCol()">Порахувати</button></td></tr>
+  </table><br>
+  <table id="myTable">
+  </table>
+</body>
+</html>
